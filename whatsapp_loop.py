@@ -9,7 +9,7 @@ webbrowser.open(f'https://web.whatsapp.com/send?phone={phone_number}')
 time.sleep(10)
 
 for i in range(1000):  
-    message = "Bhosada Minister, Kaise ho aap?"
+    message = "Write your message here in this string"
     pyautogui.typewrite(message)  
     pyautogui.press('enter')
     time.sleep(1)
